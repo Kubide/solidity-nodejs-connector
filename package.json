@@ -1,0 +1,43 @@
+{
+  "name": "solidity-nodejs-connector",
+  "version": "1.0.0",
+  "description": "And example of how to connect a NodeJS project with a Smart Contract",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src",
+    "start:dev": "export DEBUG=kubide* && nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kubide/solidity-nodejs-connector.git"
+  },
+  "keywords": [
+    "solidity",
+    "node",
+    "smartcontract"
+  ],
+  "author": "Kubide https://kubide.es/",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kubide/solidity-nodejs-connector/issues"
+  },
+  "homepage": "https://github.com/Kubide/solidity-nodejs-connector#readme",
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "nodemon": "^1.14.11"
+  },
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "debug": "^3.1.0",
+    "ethereumjs-wallet": "^0.6.0",
+    "truffle-contract": "^3.0.2",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.29",
+    "web3-provider-engine": "^13.6.0"
+  }
+}
