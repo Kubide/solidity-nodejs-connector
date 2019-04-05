@@ -1,2 +1,3 @@
-# solidity-nodejs-connector
-And example of how to connect a NodeJS project with a Smart Contract
+## Support
+
+[Kubide](https://kubide.io/) continues code maintenance [here](https://gitlab.com/kubide-rocks/solidity-nodejs-connector).
